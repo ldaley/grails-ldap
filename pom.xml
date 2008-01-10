@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.grails</groupId>
+    <artifactId>grails-ldap</artifactId>
+    <packaging>grails-app</packaging>
+    <name>grails-ldap</name>
+    <version>1.0-SNAPSHOT</version>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.octo.mtg</groupId>
+                <artifactId>grails-maven-plugin</artifactId>
+                <version>0.2</version>
+                <extensions>true</extensions>
+            </plugin>
+        </plugins>
+    </build>
+    <dependencies>
+        <dependency>
+            <groupId>com.ldaley</groupId>
+            <artifactId>gldapo</artifactId>
+            <version>0.4b3</version>
+        </dependency>
+    </dependencies>
+    <properties>
+        <grailsVersion>1.0-RC3</grailsVersion>
+        <grailsHome>${env.GRAILS_HOME}</grailsHome>
+    </properties>
+    <repositories>
+        <repository>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+            <id>ldaley-releases</id>
+            <name>ldaley.com releases</name>
+            <url>http://mvn.ldaley.com/release/</url>
+        </repository>
+    </repositories>
+</project>
