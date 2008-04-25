@@ -5,7 +5,7 @@
     <artifactId>grails-ldap</artifactId>
     <packaging>grails-app</packaging>
     <name>grails-ldap</name>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.2</version>
     <build>
         <plugins>
             <plugin>
