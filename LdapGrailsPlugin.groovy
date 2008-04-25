@@ -2,7 +2,7 @@ import gldapo.Gldapo
 
 class LdapGrailsPlugin {
 
-    def version = 0.1
+    def version = 0.2
     def dependsOn = [:]
 
     def author = 'Luke Daley'
