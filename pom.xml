@@ -20,11 +20,33 @@
         <dependency>
             <groupId>com.ldaley</groupId>
             <artifactId>gldapo</artifactId>
-            <version>0.4b3</version>
+            <version>0.5.1</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework</groupId>
+                    <artifactId>spring-core</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.springframework</groupId>
+                    <artifactId>spring-beans</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>javax.servlet</groupId>
+                    <artifactId>servlet-api</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>commons-logging</groupId>
+                    <artifactId>commons-logging</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>commons-lang</groupId>
+                    <artifactId>commons-lang</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
     </dependencies>
     <properties>
-        <grailsVersion>1.0-RC3</grailsVersion>
+        <grailsVersion>1.0.2</grailsVersion>
         <grailsHome>${env.GRAILS_HOME}</grailsHome>
     </properties>
     <repositories>
