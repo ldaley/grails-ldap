@@ -1,4 +1,4 @@
-<plugin name='ldap' version='0.1'>
+<plugin name='ldap' version='0.2'>
   <author>Luke Daley</author>
   <authorEmail>ld@ldaley.com</authorEmail>
   <title>Adds easy to use LDAP connectivity</title>
