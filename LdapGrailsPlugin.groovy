@@ -2,7 +2,7 @@ import gldapo.Gldapo
 
 class LdapGrailsPlugin {
 
-    def version = 0.2
+    def version = "0.2.1"
     def dependsOn = [:]
 
     def author = 'Luke Daley'
@@ -27,7 +27,7 @@ class LdapGrailsPlugin {
         if (application.config.containsKey('ldap')) {
             Gldapo.initialize(application.config.ldap)
         } else {
-            println "GrailsLdapGrailsPlugin: No LDAP config found!"
+            println "LdapGrailsPlugin: No LDAP config found!"
         }
     }
 
