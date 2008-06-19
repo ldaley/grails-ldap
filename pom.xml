@@ -18,7 +18,7 @@
     </build>
     <dependencies>
         <dependency>
-            <groupId>com.ldaley</groupId>
+            <groupId>org.codehaus</groupId>
             <artifactId>gldapo</artifactId>
             <version>0.6</version>
             <exclusions>
