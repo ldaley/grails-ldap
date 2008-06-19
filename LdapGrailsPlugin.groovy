@@ -2,13 +2,13 @@ import gldapo.Gldapo
 
 class LdapGrailsPlugin {
 
-    def version = "0.2.1"
+    def version = "0.6"
     def dependsOn = [:]
 
     def author = 'Luke Daley'
     def authorEmail = 'ld@ldaley.com'
     def title = 'Adds easy to use LDAP connectivity'
-    def description = "Utilises Gldapo (http://ldaley.com/gldapo) to provide an object oriented LDAP interface"
+    def description = "Utilises Gldapo (http://gldapo.codehaus.org) to provide an object oriented LDAP interface"
     def documentation = "http://grails.org/LDAP+Plugin"
     
     def doWithSpring = {
