@@ -5,7 +5,7 @@
     <artifactId>grails-ldap</artifactId>
     <packaging>grails-app</packaging>
     <name>grails-ldap</name>
-    <version>0.7.1</version>
+    <version>0.8</version>
     <build>
         <plugins>
             <plugin>
@@ -20,7 +20,7 @@
         <dependency>
             <groupId>org.codehaus</groupId>
             <artifactId>gldapo</artifactId>
-            <version>0.7.1</version>
+            <version>0.8</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.springframework</groupId>
