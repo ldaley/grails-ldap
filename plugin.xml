@@ -1,8 +1,16 @@
-<plugin name='ldap' version='0.8'>
+<plugin name='ldap' version='0.8.1' grailsVersion='1.1 &gt; *'>
   <author>Luke Daley</author>
   <authorEmail>ld@ldaley.com</authorEmail>
   <title>Adds easy to use LDAP connectivity</title>
   <description>Utilises Gldapo (http://gldapo.codehaus.org) to provide an object oriented LDAP interface</description>
-  <documentation>http://grails.org/LDAP+Plugin</documentation>
-  <resources />
+  <documentation>http://grails.org/plugin/ldap</documentation>
+  <resources>
+    <resource>Config</resource>
+    <resource>DataSource</resource>
+    <resource>spring.resources</resource>
+    <resource>Group</resource>
+    <resource>Person</resource>
+    <resource>LdapServer</resource>
+  </resources>
+  <dependencies />
 </plugin>
