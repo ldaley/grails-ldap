@@ -1,0 +1,3 @@
+beans = {
+    ldapServer(LdapServer)
+}
