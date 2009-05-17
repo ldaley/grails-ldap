@@ -10,7 +10,7 @@ class LdapGrailsPlugin {
     def authorEmail = 'ld@ldaley.com'
     def title = 'Adds easy to use LDAP connectivity'
     def description = "Utilises Gldapo (http://gldapo.codehaus.org) to provide an object oriented LDAP interface"
-    def documentation = "http://grails.org/LDAP+Plugin"
+    def documentation = "http://grails.org/plugin/ldap"
     def artefacts = [LdapClassArtefactHandler]
     def watchedResources = ["file:./grails-app/ldap/**", "file:./grails-app/conf/*Config.groovy"]
     
