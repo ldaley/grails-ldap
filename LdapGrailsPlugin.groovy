@@ -3,7 +3,7 @@ import grails.ldap.LdapClassArtefactHandler
 
 class LdapGrailsPlugin {
 
-    def version = "0.8.1"
+    def version = "0.8.1-U1"
     def dependsOn = [:]
 
     def author = 'Luke Daley'
