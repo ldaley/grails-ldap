@@ -1,4 +1,4 @@
-<plugin name='ldap' version='0.8.1' grailsVersion='1.1 &gt; *'>
+<plugin name='ldap' version='0.8.1-U1' grailsVersion='1.1 &gt; *'>
   <author>Luke Daley</author>
   <authorEmail>ld@ldaley.com</authorEmail>
   <title>Adds easy to use LDAP connectivity</title>
